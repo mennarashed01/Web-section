@@ -1,0 +1,38 @@
+body{
+    font-family:'Times New Roman', Times, serif;   
+}
+h1,h2,h3,span{
+    font-style: italic;
+}
+h1{
+    letter-spacing: 1px;
+    text-shadow: 2px 2px #f4f42c;
+}
+h2{
+    background-color: #C8A1E0;
+}
+h3{
+    background-color: #E2BFD9;
+}
+.job{
+    font-weight: 500;
+    font-size: large;
+    font-variant: small-caps;
+    color: #674188;
+    text-shadow: 2px 2px yellow;
+}
+.img{
+    width:100px;
+    border:2px solid #797921;
+}
+.pro_img{
+    width:200px;
+    border: 2px groove #674188;
+}
+.center{
+    text-align: center;
+}
+span#name{
+    font-weight: 900;
+    font-size:large;
+}

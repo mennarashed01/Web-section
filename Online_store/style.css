@@ -1,0 +1,102 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form {
+    width: 45%;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    overflow: hidden;
+    /* box-shadow: 1px 1px 2px #001,
+                -1px -1px 2px #00002266; */
+    /* box-shadow: 0px 0px 5px #123; */
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+form  p.title {
+    text-transform: capitalize;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 5px;
+    border-bottom: 3px double #111;
+}
+input , 
+textarea {
+    flex-basis: 50px;
+    text-align: center;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    border: none;
+    outline: none;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+input:focus ,
+textarea:focus {
+    border-bottom: 3px solid #001
+}
+form .img {
+    background-color: #fff;
+    border-radius: 5px;
+    display: flex;
+    /*align-items: center;
+    justify-content: center;
+    */gap: 15px;
+    padding: 10px 15px ;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    text-transform: capitalize;
+    font-style: italic;
+}
+form .img input {
+    background: #fff;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+}
+form .bottom {
+    border: 3px solid #001;
+    background-color: #fff;
+    font-size: 19px;
+}
+form .bottom:hover {
+    color: #fff;
+    text-shadow: 1px 1px 1px #222 ,
+                -1px -1px 2px #111;
+}
+
+@media (max-width: 880px) {
+    form .img {
+            flex-direction: column;
+            padding-bottom: 0;
+        }
+}
+
